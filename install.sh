@@ -11,7 +11,7 @@ echo -e "${RED}1) Install Panel${NC}"
 echo -e "${RED}2) Install Wings${NC}"
 echo -e "${RED}3) Install Panel + Wings${NC}"
 echo -e "${RED}4) Create Admin User${NC}"
-echo -e "${RED}5) Update Installer${NC}"
+echo -e "${RED}5) WING AUTO CONFIC${NC}"
 echo -e "${RED}6) Exit${NC}"
 echo -e "${RED}7) JLPG VM Manager${NC}"
 echo -e "${RED}=================================${NC}"
@@ -73,8 +73,7 @@ php artisan p:user:make
 
 5)
 echo -e "${RED}Updating JLPG Installer...${NC}"
-bash <(curl -s https://raw.githubusercontent.com/jlpggamerz/1cmd-of-jlpg/main/install.sh)
-;;
+bash <(curl -s https://raw.githubusercontent.com/jlpggamerz/Wingcmd/refs/heads/main/install.sh)
 
 6)
 exit
